@@ -5,7 +5,7 @@ jobs:
     name: Primera Tarea
     runs-on: windows-latest
     steps:
-      - name: Codigo de repositorio
+      - name: Descargar Codigo de repositorio
         uses: actions/checkout@v2
       - name: Listado de archivos
         run: ls
