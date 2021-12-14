@@ -9,3 +9,5 @@ jobs:
         uses: actions/checkout@v2
       - name: Listado de archivos
         run: ls
+      - name: Mostrar Readme
+        run: cat README.md
