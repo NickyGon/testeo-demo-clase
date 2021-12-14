@@ -2,11 +2,10 @@ name: Script de Prueba 2
 on: [push]
 jobs:
   primera:
-    uses: NickyGon/testeo-demo-clase/.github/workflows/ci.yml@v1
     name: Primera Tarea
     runs-on: windows-latest
     steps:
-      - name: Primer Paso
-        run: echo "Hola Clase"
+      - name: Codigo de repositorio
+        uses: NickyGon/testeo-demo-clase/.github/workflows/ci.yml@v1
       - name: Listado de archivos
         run: ls
