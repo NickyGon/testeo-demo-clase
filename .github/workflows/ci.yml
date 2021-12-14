@@ -1,0 +1,10 @@
+name: Script de Prueba
+on: [push]
+
+jobs:
+  primera:
+    name: Primera Tarea
+    runs-on: windows-latest
+    steps:
+      - name: Primer Paso
+      - run: echo "Hola Clase"
