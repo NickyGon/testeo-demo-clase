@@ -2,8 +2,11 @@ name: Script de Prueba 2
 on: [push]
 jobs:
   primera:
+    - uses: actions/checkout@v1
     name: Primera Tarea
     runs-on: windows-latest
     steps:
       - name: Primer Paso
         run: echo "Hola Clase"
+      - name: Listado de archivos
+        run: ls
