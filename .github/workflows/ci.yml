@@ -1,4 +1,4 @@
-name: Script de Prueba
+name: Script de Prueba 2
 on: [push]
 
 jobs:
