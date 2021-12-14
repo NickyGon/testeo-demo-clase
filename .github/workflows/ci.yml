@@ -2,7 +2,7 @@ name: Script de Prueba 2
 on: [push]
 jobs:
   primera:
-    uses: actions/checkout@v1
+    uses: NickyGon/testeo-demo-clase/.github/workflows/ci.yml@v1
     name: Primera Tarea
     runs-on: windows-latest
     steps:
