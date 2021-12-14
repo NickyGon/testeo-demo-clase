@@ -6,6 +6,6 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Codigo de repositorio
-        uses: NickyGon/testeo-demo-clase/.github/workflows/ci.yml@v1
+        uses: actions/checkout@v2
       - name: Listado de archivos
         run: ls
